@@ -5,20 +5,23 @@ using namespace std;
 
 int main(void) {
     double_linked_list<std::string> l;
-
+    cout << "Lista vazia? " << (l.empty() ? "Sim" : "Nao") << endl;
     l.insert("Davi",1);
     l.print();
     l.insert("Daniel",2);
     l.print();
-    l.insert("Dan",2);
+    l.insert("Pedro",2);
     l.print();
-    l.insert("val", 2);
+    l.insert("Maria", 2);
     l.print();
-    l.insert("Di",4);
+    l.insert("Sofia",4);
     l.print();
     l.remove(2);
     l.print();
-    cout << l.get_value(2) << endl << l.get_length();
+    cout << "Tamanho da lista: " << l.get_length() << endl;
+    cout << "Valor da segunda posicao: " << l.get_value(2) << endl;
+    
+    cout << "Lista vazia? " << (l.empty() ? "Sim" : "Nao") << endl;
 
     return 0;
 }

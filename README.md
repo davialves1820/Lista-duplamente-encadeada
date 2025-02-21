@@ -45,5 +45,15 @@ O programa permite realizar as seguintes operações na lista sequencial:
 Exemplo de funcionamento da lista:
 
 ```
+Lista vazia? Sim
+Davi
+Davi Daniel
+Davi Pedro Daniel
+Davi Maria Pedro Daniel
+Davi Maria Pedro Sofia Daniel
+Davi Pedro Sofia Daniel
+Tamanho da lista: 4
+Valor da segunda posicao: Pedro
+Lista vazia? Nao
 
 ```

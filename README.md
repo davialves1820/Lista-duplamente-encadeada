@@ -1,4 +1,4 @@
-# Lista Encadeada 
+# Lista Duplamente Encadeada 
 
 ## 📄 Descrição
 Implementação do tipo abstrado de dado lista duplamente encadeada em c++ utilizando template para permitir gerar listas de tipos genéricos. A implementação já acompanha um caso de teste no arquivo main, que demonstra o uso da lista duplamente encadeada.
@@ -29,7 +29,7 @@ make
 ---
 
 ## 🔧 Funcionalidades
-O programa permite realizar as seguintes operações na lista sequencial:
+O programa permite realizar as seguintes operações na lista duplamente encadeada:
 - Criar uma lista.
 - Verificar se a lista está vazia.
 - Obter o tamanho atual da lista.
